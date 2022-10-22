@@ -1,0 +1,255 @@
+header{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+:root{
+    --text-size:15px
+}
+.nav-pic{
+    width: 40%;
+}
+nav ul{
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-weight: 400;
+}
+.home-btn1{
+    background-color: #A47E3B;
+}
+.home-content h1{
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-weight: 600;
+    font-size: var(--text-size * 4);
+    font-style: italic;
+}
+.home-content h5{
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-weight: 500;
+    color: #CCCCB7;
+}
+.home-content p{
+    color: #CCCCB7;
+}
+.home-logo{
+    bottom: 30px;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+    border: 2px solid hsla(0,0%,100%,.7);
+} 
+.btn-color{
+    background-color: #A47E3B;
+    color: white;
+    border: none;
+}
+.home-icon{
+    width: 32px;
+    height: 50px;
+    overflow: hidden;
+}   
+.home-logo h2{
+    font-size: 60px;
+    animation-duration: 4s;
+}
+
+
+.about-text{
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-weight: 500;
+}
+section p , ul{
+    color: rgba(0, 0, 0, 0.747);
+ 
+}
+
+.about-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.541);
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    color:#A47E3B;
+}
+
+
+
+.ouroffer{
+    background-color: #F8F8F8;
+}
+.ouroffer h3{
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-weight: 500;
+}
+.ouroffer p{
+    font-size: 18px;
+   
+}
+.ouroffer-layer{
+ --offset:20px;
+ left: var(--offset);
+ right: var(--offset);
+ top: 0;
+ bottom: calc(2 * var( --offset ));
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ overflow: hidden;
+ transform: translateY(-100%);
+ transition:1s all ;
+ -webkit-transition:1s all ;
+ -moz-transition:1s all ;
+ -ms-transition:1s all ;
+ -o-transition:1s all ;
+ -webkit-transform: translateY(-100%);
+ -moz-transform: translateY(-100%);
+ -ms-transform: translateY(-100%);
+ -o-transform: translateY(-100%);
+}
+.ouroffer-pic:hover .ouroffer-layer{
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+.gallery h5{
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+
+.blog{
+    background-color: #F8F8F8;
+}
+.blog-icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8E7754;
+    color: white;
+}
+
+.blog h3{
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+.contact a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.562);
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+.contact a:hover{
+    color: white;
+}
+
+.contact{
+    background-color: #403D38;
+}
+.contact li{
+    margin-top: 15px;
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.562);
+}
+.contact p{
+    color: rgba(255, 255, 255, 0.562);
+    font-size: 16px;
+}
+.contact h5{
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+footer{
+    background-color:#353330;
+}
+footer img{
+    width: 18%;
+}
+footer p{
+    font-size: 13px;
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.363);
+}
+.footer-icon{
+    width: 35px;
+    height: 35px;
+    background-color: rgba(99, 98, 98, 0.466);
+    color: rgba(255, 255, 255, 0.438);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+.footer-icon:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.747);
+}
+
+a{
+    text-decoration: none;
+}
+
+.box{
+    background-color: white;
+    width: 40px;
+    height: 80px;
+    box-shadow: 0px 0px 10px ;
+    border-radius: 5px ;
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -ms-border-radius: 5px ;
+    -o-border-radius: 5px ;
+     right: -5px;
+}
+.box a{
+    color: black;
+    transition: 0.2s all;
+    -webkit-transition: 0.2s all;
+    -moz-transition: 0.2s all;
+    -ms-transition: 0.2s all;
+    -o-transition: 0.2s all;
+}
+.box a:hover{
+    color: rgba(0, 0, 255, 0.795);
+}
